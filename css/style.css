@@ -1,0 +1,162 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color:#f3f4f6;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.big-container{
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 18em;
+}
+
+.topDisplay{
+  background-color: #0c0c0c;
+  color: #f3f4f6;
+  width: 50%;
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  border-radius: 1em;
+}
+
+.avatar{
+  height: 40px;
+  border-radius: 1.5em;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  background-color:#b8c4d8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  padding: 8px;
+  border-radius: 1em;
+  width: 45%;
+  position: absolute;
+  top: 8.8em;
+}
+.search-bar input{
+  background-color: transparent;
+  border: none;
+  height: 1.5em;
+  width: 14em;
+  outline: none;
+}
+
+
+.fa-sliders{
+  color: #b8c4d8; /* Icon color */
+  background-color: #0c0c0c;
+  padding: 0.2em;
+  border-radius: 0.3em;
+}
+
+.fa-search{
+  color:#969eac;
+}
+
+.project-row{
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  align-items: center;
+  margin-top: 2em;
+}
+.task{
+display: flex;
+justify-content: space-between;
+width: 45%;
+align-items: center;
+margin-top: 4em;
+}
+
+
+.carousel-container {
+  overflow: hidden;
+  width: 40%; /* Adjust the width as needed */
+  margin: 50px auto;
+  margin-top: 6em;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.box {
+  width: 100%;
+  min-width: 150px; /* Adjust the width as needed */
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 1em;
+  border-radius: 1em;
+  color: #f3f4f6;
+}
+
+.box:nth-child(1) {
+  background-color: #0c0c0c;
+}
+
+.box:nth-child(2) {
+  background-color: #0c0c0c;
+}
+
+.bar{
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  padding: 0.3em;
+  justify-content: space-around;
+  border-radius: 1em;
+  width: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.fa-circle{
+  color: #0c0c0c;
+}
+#upDiv{
+  margin-bottom: 1em;
+}
+
+.navbar{
+  margin-top: 0.2em;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  
+}
+
+.navbar a{
+  color: #b8c4d8 ;
+}
+
+.fa-plus-circle{
+  padding: 1em;
+  background-color: black;
+  border-radius: 2em;
+  border: 4px solid;
+  border-color:#b8c4d8;
+  color: #f3f4f6;
+  margin-top: -0.7em;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
